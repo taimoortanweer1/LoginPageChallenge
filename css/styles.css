@@ -101,7 +101,15 @@ span.psw {
   transform: rotateY(180deg); }
 
 .container-anim {
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-name: stretch;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; }
 
 .transformSize {
   animation-duration: 1s;
